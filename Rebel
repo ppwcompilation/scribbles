@@ -1,6 +1,6 @@
 # Spartacus chain of hangers! 
 
-chain = print(int(input("Tell me how long is your chain of prisoners: )))
-prison = print(int(input("How many prisoners you have: ")))
-crosses = chain / prison 
-print("Your rebels will hang for ", crosses, "meter by ", chain, "meters.") 
+chain = int(input("Tell me how long is your chain of prisoners: "))
+prison = int(input("How many prisoners you have: "))
+crosses = int(chain/prison)
+print("Your rebels will hang for ", crosses, "meter by ", chain, "meters.")
